@@ -1,0 +1,4 @@
+eta,top_k,layer,simple_avg_npmi_mean,simple_avg_npmi_std,simple_avg_c_v_mean,simple_avg_c_v_std,simple_avg_u_mass_mean,simple_avg_u_mass_std,node_count_mean,node_count_std,run_id_count
+0.01,5,0.0,0.0059,0.0076,0.4993,0.0163,-0.5853,0.0179,1.0,0.0,3
+0.01,5,1.0,0.0313,0.0228,0.5317,0.0064,-2.8094,0.2006,79.0,2.6458,3
+0.01,5,2.0,0.063,0.0054,0.5591,0.0037,-2.6955,0.0356,340.3333,12.897,3

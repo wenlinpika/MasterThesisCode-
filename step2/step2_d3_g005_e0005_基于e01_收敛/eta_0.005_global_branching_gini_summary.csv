@@ -1,0 +1,4 @@
+eta,index,t_o_t_a_l___n_o_d_e_s,t_o_t_a_l___l_a_y_e_r_s,t_o_t_a_l___b_r_a_n_c_h_e_s,g_l_o_b_a_l___a_v_g___b_r_a_n_c_h_i_n_g,g_l_o_b_a_l___s_t_d___b_r_a_n_c_h_i_n_g,g_l_o_b_a_l___m_a_x___b_r_a_n_c_h_i_n_g,g_l_o_b_a_l___t_o_t_a_l___d_o_c_u_m_e_n_t_s,g_l_o_b_a_l___g_i_n_i___d_o_c___d_i_s_t_r_i_b_u_t_i_o_n,g_l_o_b_a_l___g_i_n_i___b_r_a_n_c_h___d_i_s_t_r_i_b_u_t_i_o_n,r_u_n___i_d
+0.005,mean,432.3333,3.0,431.3333,5.0279,11.8075,85.0,2910.0,0.7195,0.5335,
+0.005,std,5.5076,0.0,5.5076,0.3232,1.0969,5.0,0.0,0.0093,0.0445,
+0.005,count,,,,,,,,,,3.0

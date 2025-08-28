@@ -1,0 +1,2 @@
+eta,run_count,perplexity_mean,perplexity_std,perplexity_min,perplexity_max,avg_doc_perplexity_mean,avg_doc_perplexity_std,doc_match_rate_mean,doc_match_rate_std,avg_path_length_mean,avg_path_length_std,valid_test_docs_mean,total_test_words_mean,log_likelihood_mean,log_likelihood_std,gamma,depth,alpha,run_ids
+0.1,3,415.9169,11.9286,402.143,422.8394,415.9169,11.9286,1.0,0.0,3.0,0.0,194.0,16508.0,-99546.6746,477.506,0.05,3.0,0.1,"1, 2, 3"

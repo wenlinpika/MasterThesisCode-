@@ -1,0 +1,2 @@
+total_nodes,total_layers,total_branches,global_avg_branching,global_std_branching,global_max_branching,global_total_documents,global_gini_doc_distribution,global_gini_branch_distribution
+384,3,383,5.2465753424657535,9.764039168011385,72,2910,0.7107424112256586,0.4955828176973425

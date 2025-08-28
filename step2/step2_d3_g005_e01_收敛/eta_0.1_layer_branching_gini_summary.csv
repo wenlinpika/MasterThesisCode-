@@ -1,0 +1,4 @@
+eta,layer,node_count_mean,node_count_std,total_branches_mean,total_branches_std,avg_branching_factor_mean,avg_branching_factor_std,std_branching_factor_mean,std_branching_factor_std,non_leaf_nodes_mean,non_leaf_nodes_std,non_leaf_avg_branching_mean,non_leaf_avg_branching_std,total_documents_mean,total_documents_std,gini_doc_distribution_mean,gini_doc_distribution_std,gini_branch_distribution_mean,gini_branch_distribution_std,run_id_count
+0.1,0.0,1.0,0.0,41.6667,2.0817,41.6667,2.0817,0.0,0.0,1.0,0.0,41.6667,2.0817,970.0,0.0,0.0,0.0,0.0,0.0,3
+0.1,1.0,41.6667,2.0817,174.3333,11.0604,4.1823,0.0713,7.2152,1.3475,41.6667,2.0817,4.1823,0.0713,970.0,0.0,0.6376,0.0306,0.4325,0.0507,3
+0.1,2.0,174.3333,11.0604,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,970.0,0.0,0.4807,0.0178,0.0,0.0,3

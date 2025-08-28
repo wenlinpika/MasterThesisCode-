@@ -1,0 +1,4 @@
+eta,top_k,layer,weighted_avg_npmi_mean,weighted_avg_npmi_std,weighted_avg_npmi_count,weighted_avg_c_v_mean,weighted_avg_c_v_std,weighted_avg_c_v_count,weighted_avg_u_mass_mean,weighted_avg_u_mass_std,weighted_avg_u_mass_count,simple_avg_npmi_mean,simple_avg_npmi_std,simple_avg_c_v_mean,simple_avg_c_v_std,simple_avg_u_mass_mean,simple_avg_u_mass_std,node_count_mean,total_documents_mean,run_id_<lambda>
+0.05,10,0.0,0.0214,0.0002,3,0.4715,0.006,3,-0.7026,0.0091,3,0.0214,0.0002,0.4715,0.006,-0.7026,0.0091,1.0,970.0,"1, 2, 3"
+0.05,10,1.0,-0.0101,0.0069,3,0.4427,0.0239,3,-2.6329,0.0897,3,-0.0498,0.0042,0.4054,0.0137,-3.3333,0.0388,58.6667,970.0,"1, 2, 3"
+0.05,10,2.0,-0.0063,0.0115,3,0.452,0.0082,3,-3.3469,0.2014,3,-0.0253,0.0098,0.4445,0.0057,-3.3313,0.1489,252.3333,970.0,"1, 2, 3"

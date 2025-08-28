@@ -1,0 +1,4 @@
+eta,layer,avg_js_distance_mean,avg_js_distance_std,run_count,weighted_avg_renyi_entropy_mean,weighted_avg_renyi_entropy_std,entropy_run_count,avg_node_count,node_count_std,avg_total_documents,included_runs
+0.005,0.0,0.0,0.0,3,5.4077,0.0307,3,1.0,0.0,970.0,"1, 2, 3"
+0.005,1.0,0.737,0.0077,3,3.5804,0.0238,3,85.0,5.0,970.0,"1, 2, 3"
+0.005,2.0,0.7486,0.0018,3,3.0128,0.0564,3,346.3333,8.9629,970.0,"1, 2, 3"
