@@ -1,0 +1,2 @@
+alpha,eta,gamma,depth,iteration,test_docs_count,valid_test_docs,matched_docs,total_test_words,log_likelihood,perplexity,avg_doc_perplexity,doc_match_rate,avg_path_length
+0.01,0.05,0.05,3,285,194,194,194,16508,-113201.6095014549,950.8713896316051,1655.6105422680293,1.0,3.0

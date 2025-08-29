@@ -1,0 +1,4 @@
+alpha,layer,avg_branching_factor_mean,avg_branching_factor_std,avg_branching_factor_count,gini_doc_distribution_mean,gini_doc_distribution_std,gini_doc_distribution_count,gini_branch_distribution_mean,gini_branch_distribution_std,gini_branch_distribution_count,node_count_mean,node_count_std,total_documents_mean,run_id_<lambda>
+0.2,0.0,72.0,5.5678,3,0.0,0.0,3,0.0,0.0,3,1.0,0.0,970.0,"1, 2, 3"
+0.2,1.0,3.5552,0.3567,3,0.4993,0.0319,3,0.4354,0.0179,3,72.0,5.5678,970.0,"1, 2, 3"
+0.2,2.0,0.0,0.0,3,0.3757,0.0124,3,0.0,0.0,3,254.6667,7.7675,970.0,"1, 2, 3"

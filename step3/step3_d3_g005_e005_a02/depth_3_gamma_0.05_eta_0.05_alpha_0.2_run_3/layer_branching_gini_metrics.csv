@@ -1,0 +1,4 @@
+layer,node_count,total_branches,avg_branching_factor,std_branching_factor,non_leaf_nodes,non_leaf_avg_branching,total_documents,gini_doc_distribution,gini_branch_distribution,alpha
+0,1,78,78.0,0.0,1,78.0,970,0.0,0.0,0.2
+1,78,246,3.1538461538461537,4.432042196055156,78,3.1538461538461537,970,0.46357388316151205,0.4169272461955389,0.2
+2,246,0,0.0,0.0,0,0.0,970,0.3704048277596178,0.0,0.2

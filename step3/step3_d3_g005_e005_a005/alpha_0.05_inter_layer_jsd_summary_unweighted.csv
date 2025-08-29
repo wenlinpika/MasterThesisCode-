@@ -1,0 +1,3 @@
+alpha,parent_layer,child_layer,simple_avg_js_distance_mean,simple_avg_js_distance_std,simple_avg_js_distance_count,std_js_distance_mean,median_js_distance_mean,min_js_distance_min,max_js_distance_max,pair_count_mean,eta_used_first,run_id_<lambda>
+0.05,0.0,1.0,0.6303,0.0032,3,0.0282,0.632,0.4184,0.685,60.6667,0.05,"1, 2, 3"
+0.05,1.0,2.0,0.5758,0.0101,3,0.072,0.5782,0.2372,0.7172,237.0,0.05,"1, 2, 3"

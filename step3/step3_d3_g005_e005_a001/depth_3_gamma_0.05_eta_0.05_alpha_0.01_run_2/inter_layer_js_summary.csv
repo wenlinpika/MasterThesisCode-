@@ -1,0 +1,3 @@
+parent_layer,child_layer,pair_count,avg_js_distance,std_js_distance,child_weighted_avg_js_distance,total_parent_docs,total_child_docs,alpha,eta_used
+0,1,59,0.629200103276944,0.04050986227436336,0.49594321114028045,57230,970,0.01,0.05
+1,2,253,0.5813826333296174,0.0725682721303393,0.6153527363902592,43078,970,0.01,0.05
