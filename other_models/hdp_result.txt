@@ -1,0 +1,547 @@
+First time!
+
+🎯 Starting HDP model training - Optimized for hLDA comparison
+============================================================
+
+🎯 Training HDP model with the full dataset (for hLDA comparison)...
+📚 Using full dataset: 970 documents
+🚀 Starting to train HDP model for comparison with hLDA (seed=24)
+📊 Data Overview:
+   - Number of documents: 970
+   - Average document length: 85.8 words
+   - Vocabulary size: 1490
+   - Target number of topics: 252 (aligned with hLDA leaf nodes)
+🔄 Iteratively adjusting HDP parameters, target number of topics: 252
+
+--- Attempt 1/3: gamma=0.5 ---
+/tmp/ipykernel_26115/1858748832.py:208: RuntimeWarning: The training result may differ even with fixed seed if `workers` != 1.
+  mdl.train(interval)
+[HDP-1] iter=  50 llpw=-6.6753 ppl=792.57 Calculating multiple coherence metrics...
+[HDP-1] iter=  50 llpw=-6.6753 ppl=792.57 c_v=0.4637, c_npmi=-0.1924
+[HDP-1] iter= 100 llpw=-6.6514 ppl=773.83 Calculating multiple coherence metrics...
+[HDP-1] iter= 100 llpw=-6.6514 ppl=773.83 c_v=0.4571, c_npmi=-0.2085
+[HDP-1] iter= 150 llpw=-6.6381 ppl=763.66 Calculating multiple coherence metrics...
+[HDP-1] iter= 150 llpw=-6.6381 ppl=763.66 c_v=0.4538, c_npmi=-0.2209
+[HDP-1] iter= 200 llpw=-6.6262 ppl=754.62 Calculating multiple coherence metrics...
+[HDP-1] iter= 200 llpw=-6.6262 ppl=754.62 c_v=0.4481, c_npmi=-0.2305
+[HDP-1] iter= 250 llpw=-6.6256 ppl=754.13 Calculating multiple coherence metrics...
+[HDP-1] iter= 250 llpw=-6.6256 ppl=754.13 c_v=0.4484, c_npmi=-0.2293
+[HDP-1] iter= 300 llpw=-6.6237 ppl=752.74 Calculating multiple coherence metrics...
+[HDP-1] iter= 300 llpw=-6.6237 ppl=752.74 c_v=0.4415, c_npmi=-0.2417
+[HDP-1] iter= 350 llpw=-6.6220 ppl=751.46 Calculating multiple coherence metrics...
+[HDP-1] iter= 350 llpw=-6.6220 ppl=751.46 c_v=0.4483, c_npmi=-0.2348
+[HDP-1] iter= 400 llpw=-6.6201 ppl=749.99 Calculating multiple coherence metrics...
+[HDP-1] iter= 400 llpw=-6.6201 ppl=749.99 c_v=0.4532, c_npmi=-0.2325
+[HDP-1] iter= 450 llpw=-6.6185 ppl=748.82 Calculating multiple coherence metrics...
+[HDP-1] iter= 450 llpw=-6.6185 ppl=748.82 c_v=0.4514, c_npmi=-0.2328
+[HDP-1] iter= 500 llpw=-6.6197 ppl=749.73 Calculating multiple coherence metrics...
+[HDP-1] iter= 500 llpw=-6.6197 ppl=749.73 c_v=0.4484, c_npmi=-0.2435
+[HDP-1] iter= 550 llpw=-6.6178 ppl=748.27 Calculating multiple coherence metrics...
+[HDP-1] iter= 550 llpw=-6.6178 ppl=748.27 c_v=0.4508, c_npmi=-0.2420
+[HDP-1] iter= 600 llpw=-6.6178 ppl=748.28 Calculating multiple coherence metrics...
+[HDP-1] iter= 600 llpw=-6.6178 ppl=748.28 c_v=0.4490, c_npmi=-0.2473
+[HDP-1] early stop at iter 600
+📊 Attempt 1 Results:
+   - Effective topics: 253
+   - Total topics: 253
+   - Difference from target: 1
+
+--- Attempt 2/3: gamma=1.0 ---
+[HDP-2] iter=  50 llpw=-6.6778 ppl=794.60 Calculating multiple coherence metrics...
+[HDP-2] iter=  50 llpw=-6.6778 ppl=794.60 c_v=0.4634, c_npmi=-0.1926
+[HDP-2] iter= 100 llpw=-6.6523 ppl=774.53 Calculating multiple coherence metrics...
+[HDP-2] iter= 100 llpw=-6.6523 ppl=774.53 c_v=0.4544, c_npmi=-0.2133
+[HDP-2] iter= 150 llpw=-6.6393 ppl=764.60 Calculating multiple coherence metrics...
+[HDP-2] iter= 150 llpw=-6.6393 ppl=764.60 c_v=0.4535, c_npmi=-0.2160
+[HDP-2] iter= 200 llpw=-6.6367 ppl=762.60 Calculating multiple coherence metrics...
+[HDP-2] iter= 200 llpw=-6.6367 ppl=762.60 c_v=0.4469, c_npmi=-0.2279
+[HDP-2] iter= 250 llpw=-6.6346 ppl=761.01 Calculating multiple coherence metrics...
+[HDP-2] iter= 250 llpw=-6.6346 ppl=761.01 c_v=0.4516, c_npmi=-0.2288
+[HDP-2] iter= 300 llpw=-6.6350 ppl=761.26 Calculating multiple coherence metrics...
+[HDP-2] iter= 300 llpw=-6.6350 ppl=761.26 c_v=0.4464, c_npmi=-0.2378
+[HDP-2] iter= 350 llpw=-6.6335 ppl=760.12 Calculating multiple coherence metrics...
+[HDP-2] iter= 350 llpw=-6.6335 ppl=760.12 c_v=0.4504, c_npmi=-0.2345
+[HDP-2] iter= 400 llpw=-6.6316 ppl=758.68 Calculating multiple coherence metrics...
+[HDP-2] iter= 400 llpw=-6.6316 ppl=758.68 c_v=0.4455, c_npmi=-0.2366
+[HDP-2] iter= 450 llpw=-6.6322 ppl=759.11 Calculating multiple coherence metrics...
+[HDP-2] iter= 450 llpw=-6.6322 ppl=759.11 c_v=0.4474, c_npmi=-0.2317
+[HDP-2] iter= 500 llpw=-6.6317 ppl=758.78 Calculating multiple coherence metrics...
+[HDP-2] iter= 500 llpw=-6.6317 ppl=758.78 c_v=0.4519, c_npmi=-0.2323
+[HDP-2] iter= 550 llpw=-6.6276 ppl=755.63 Calculating multiple coherence metrics...
+[HDP-2] iter= 550 llpw=-6.6276 ppl=755.63 c_v=0.4519, c_npmi=-0.2347
+[HDP-2] early stop at iter 550
+📊 Attempt 2 Results:
+   - Effective topics: 253
+   - Total topics: 253
+   - Difference from target: 1
+
+--- Attempt 3/3: gamma=2.0 ---
+[HDP-3] iter=  50 llpw=-6.7236 ppl=831.77 Calculating multiple coherence metrics...
+[HDP-3] iter=  50 llpw=-6.7236 ppl=831.77 c_v=0.4718, c_npmi=-0.1553
+[HDP-3] iter= 100 llpw=-6.6850 ppl=800.33 Calculating multiple coherence metrics...
+[HDP-3] iter= 100 llpw=-6.6850 ppl=800.33 c_v=0.4653, c_npmi=-0.1796
+[HDP-3] iter= 150 llpw=-6.6623 ppl=782.31 Calculating multiple coherence metrics...
+[HDP-3] iter= 150 llpw=-6.6623 ppl=782.31 c_v=0.4620, c_npmi=-0.2043
+[HDP-3] iter= 200 llpw=-6.6432 ppl=767.53 Calculating multiple coherence metrics...
+[HDP-3] iter= 200 llpw=-6.6432 ppl=767.53 c_v=0.4571, c_npmi=-0.2286
+[HDP-3] iter= 250 llpw=-6.6385 ppl=763.95 Calculating multiple coherence metrics...
+[HDP-3] iter= 250 llpw=-6.6385 ppl=763.95 c_v=0.4508, c_npmi=-0.2368
+[HDP-3] iter= 300 llpw=-6.6339 ppl=760.47 Calculating multiple coherence metrics...
+[HDP-3] iter= 300 llpw=-6.6339 ppl=760.47 c_v=0.4503, c_npmi=-0.2417
+[HDP-3] iter= 350 llpw=-6.6297 ppl=757.22 Calculating multiple coherence metrics...
+[HDP-3] iter= 350 llpw=-6.6297 ppl=757.22 c_v=0.4492, c_npmi=-0.2386
+[HDP-3] iter= 400 llpw=-6.6278 ppl=755.82 Calculating multiple coherence metrics...
+[HDP-3] iter= 400 llpw=-6.6278 ppl=755.82 c_v=0.4485, c_npmi=-0.2425
+[HDP-3] iter= 450 llpw=-6.6268 ppl=755.04 Calculating multiple coherence metrics...
+[HDP-3] iter= 450 llpw=-6.6268 ppl=755.04 c_v=0.4467, c_npmi=-0.2473
+[HDP-3] iter= 500 llpw=-6.6261 ppl=754.54 Calculating multiple coherence metrics...
+[HDP-3] iter= 500 llpw=-6.6261 ppl=754.54 c_v=0.4471, c_npmi=-0.2457
+[HDP-3] early stop at iter 500
+📊 Attempt 3 Results:
+   - Effective topics: 253
+   - Total topics: 253
+   - Difference from target: 1
+
+✅ Training complete! Time taken: 157.7 seconds
+
+🔍 HDP Multiple Coherence Metrics Evaluation:
+================================================================================
+📊 Coherence Metrics Results:
+   📈 C_v (Vector Space Coherence): 0.448999
+   📈 NPMI (Normalized Pointwise Mutual Information): -0.247321
+
+📊 Basic Metrics:
+   📈 Effective topics: 253
+   📈 Total topics: 253
+   📈 Topic utilization: 100.0%
+
+💡 Coherence Metric Explanations:
+   🎯 C_v: Range [0,1], higher is better, based on word vector similarity
+   🎯 NPMI: Range [-1,1], higher is better, Normalized Pointwise Mutual Information
+
+🏆 Composite Coherence Score: 0.4127 (average of normalized scores)
+
+📈 Final Evaluation Results:
+   - Training iterations: 600
+   - Log-likelihood per word: -6.617781
+   - Perplexity: 748.28
+   - Coherence (C_v): 0.4490
+   - Coherence (NPMI): -0.2473
+   - Effective topics: 253
+   - Total topics: 253
+   - Target difference: 1
+   - Gamma used: 0.500
+
+🎯 hLDA Comparison Analysis:
+   - hLDA leaf nodes: 252
+   - HDP effective topics: 253
+   - Topic count difference: 1
+   ✅ Topic count is close to hLDA (difference ≤ 50)
+
+🔍 HDP Topic Analysis (showing top 5 words):
+================================================================================
+Topic   0 (weight:0.048): interface(0.048), domain(0.035), formulation(0.029), mixed(0.022), lagrange(0.016)
+Topic   1 (weight:0.074): fatigue(0.074), crack(0.041), adhesive(0.026), use(0.019), material(0.019)
+Topic   2 (weight:0.024): deposition(0.024), transmission(0.018), load(0.018), particle(0.018), flow(0.012)
+Topic   3 (weight:0.045): shell(0.045), thickness(0.034), element(0.028), node(0.028), surface(0.028)
+Topic   4 (weight:0.051): system(0.051), model(0.025), provide(0.025), framework(0.022), develop(0.022)
+Topic   5 (weight:0.029): couple(0.029), fsi(0.029), use(0.027), fluid(0.027), form(0.021)
+Topic   6 (weight:0.030): constituent(0.030), test(0.030), parameter(0.025), material(0.025), composite(0.020)
+Topic   7 (weight:0.049): structure(0.049), random(0.040), field(0.036), stochastic(0.031), irregular(0.027)
+Topic   8 (weight:0.037): ann(0.037), weight(0.037), output(0.031), problem(0.025), model(0.019)
+Topic   9 (weight:0.045): macroscopic(0.045), pressure(0.038), system(0.026), side(0.019), multiphysics(0.019)
+... (and 115 more active topics)
+
+📊 HDP Topic Statistics:
+   - Active topics: 125/253
+   - Topic activity rate: 49.4%
+
+🎯 HDP model evaluation complete!
+📊 Key Metrics:
+   - iterations: 600
+   - log_likelihood_per_word: -6.6178
+   - perplexity: 748.2831
+   - coherence_c_v: 0.4490
+   - effective_topics: 253
+   - total_topics: 253
+   - target_diff: 1
+   - gamma_used: 0.5000
+   - training_time_seconds: 157.7379
+   - convergence_iterations: 12
+   - coherence_c_npmi: -0.2473
+   - composite_score: 0.4127
+   - topic_utilization: 1.0000
+
+💾 HDP model is trained, features:
+   1. Non-parametric model (dynamic topic count, adjusted to be close to 252)
+   2. Hierarchical structure based on Dirichlet Process
+   3. Topic count optimized via gamma parameter
+   4. Suitable for fair comparison with hLDA
+
+📋 hLDA Comparison Preparation:
+   - hLDA leaf nodes: 252 topics
+   - HDP effective topics: 253 topics
+   - Topic count difference: 1
+   - Both models use the same dataset and preprocessing
+   - Perplexity and coherence can be directly compared
+
+📈 Do you want to view the HDP training curves?
+============================================================
+
+second time!
+
+🎯 Starting HDP model training - Optimized for hLDA comparison
+============================================================
+
+🎯 Training HDP model with the full dataset (for hLDA comparison)...
+📚 Using full dataset: 970 documents
+🚀 Starting to train HDP model for comparison with hLDA (seed=24)
+📊 Data Overview:
+   - Number of documents: 970
+   - Average document length: 85.8 words
+   - Vocabulary size: 1490
+   - Target number of topics: 252 (aligned with hLDA leaf nodes)
+🔄 Iteratively adjusting HDP parameters, target number of topics: 252
+
+--- Attempt 1/3: gamma=0.5 ---
+[HDP-1] iter=  50 llpw=-6.7005 ppl=812.85 Calculating multiple coherence metrics...
+/tmp/ipykernel_19730/1858748832.py:208: RuntimeWarning: The training result may differ even with fixed seed if `workers` != 1.
+  mdl.train(interval)
+[HDP-1] iter=  50 llpw=-6.7005 ppl=812.85 c_v=0.4700, c_npmi=-0.1593
+[HDP-1] iter= 100 llpw=-6.6654 ppl=784.81 Calculating multiple coherence metrics...
+[HDP-1] iter= 100 llpw=-6.6654 ppl=784.81 c_v=0.4569, c_npmi=-0.1985
+[HDP-1] iter= 150 llpw=-6.6474 ppl=770.80 Calculating multiple coherence metrics...
+[HDP-1] iter= 150 llpw=-6.6474 ppl=770.80 c_v=0.4614, c_npmi=-0.2027
+[HDP-1] iter= 200 llpw=-6.6374 ppl=763.14 Calculating multiple coherence metrics...
+[HDP-1] iter= 200 llpw=-6.6374 ppl=763.14 c_v=0.4608, c_npmi=-0.2076
+[HDP-1] iter= 250 llpw=-6.6345 ppl=760.88 Calculating multiple coherence metrics...
+[HDP-1] iter= 250 llpw=-6.6345 ppl=760.88 c_v=0.4575, c_npmi=-0.2131
+[HDP-1] iter= 300 llpw=-6.6329 ppl=759.71 Calculating multiple coherence metrics...
+[HDP-1] iter= 300 llpw=-6.6329 ppl=759.71 c_v=0.4582, c_npmi=-0.2120
+[HDP-1] iter= 350 llpw=-6.6285 ppl=756.34 Calculating multiple coherence metrics...
+[HDP-1] iter= 350 llpw=-6.6285 ppl=756.34 c_v=0.4533, c_npmi=-0.2227
+[HDP-1] iter= 400 llpw=-6.6265 ppl=754.85 Calculating multiple coherence metrics...
+[HDP-1] iter= 400 llpw=-6.6265 ppl=754.85 c_v=0.4595, c_npmi=-0.2208
+[HDP-1] iter= 450 llpw=-6.6245 ppl=753.31 Calculating multiple coherence metrics...
+[HDP-1] iter= 450 llpw=-6.6245 ppl=753.31 c_v=0.4560, c_npmi=-0.2241
+[HDP-1] iter= 500 llpw=-6.6246 ppl=753.42 Calculating multiple coherence metrics...
+[HDP-1] iter= 500 llpw=-6.6246 ppl=753.42 c_v=0.4572, c_npmi=-0.2261
+[HDP-1] iter= 550 llpw=-6.6217 ppl=751.20 Calculating multiple coherence metrics...
+[HDP-1] iter= 550 llpw=-6.6217 ppl=751.20 c_v=0.4510, c_npmi=-0.2316
+[HDP-1] iter= 600 llpw=-6.6222 ppl=751.62 Calculating multiple coherence metrics...
+[HDP-1] iter= 600 llpw=-6.6222 ppl=751.62 c_v=0.4560, c_npmi=-0.2356
+[HDP-1] iter= 650 llpw=-6.6199 ppl=749.85 Calculating multiple coherence metrics...
+[HDP-1] iter= 650 llpw=-6.6199 ppl=749.85 c_v=0.4502, c_npmi=-0.2405
+[HDP-1] iter= 700 llpw=-6.6187 ppl=748.99 Calculating multiple coherence metrics...
+[HDP-1] iter= 700 llpw=-6.6187 ppl=748.99 c_v=0.4546, c_npmi=-0.2436
+[HDP-1] iter= 750 llpw=-6.6179 ppl=748.40 Calculating multiple coherence metrics...
+[HDP-1] iter= 750 llpw=-6.6179 ppl=748.40 c_v=0.4536, c_npmi=-0.2404
+[HDP-1] iter= 800 llpw=-6.6156 ppl=746.68 Calculating multiple coherence metrics...
+[HDP-1] iter= 800 llpw=-6.6156 ppl=746.68 c_v=0.4491, c_npmi=-0.2412
+[HDP-1] iter= 850 llpw=-6.6160 ppl=746.98 Calculating multiple coherence metrics...
+[HDP-1] iter= 850 llpw=-6.6160 ppl=746.98 c_v=0.4515, c_npmi=-0.2424
+[HDP-1] iter= 900 llpw=-6.6180 ppl=748.42 Calculating multiple coherence metrics...
+[HDP-1] iter= 900 llpw=-6.6180 ppl=748.42 c_v=0.4491, c_npmi=-0.2466
+[HDP-1] early stop at iter 900
+📊 Attempt 1 Results:
+   - Effective topics: 253
+   - Total topics: 253
+   - Difference from target: 1
+
+--- Attempt 2/3: gamma=1.0 ---
+[HDP-2] iter=  50 llpw=-6.6790 ppl=795.49 Calculating multiple coherence metrics...
+[HDP-2] iter=  50 llpw=-6.6790 ppl=795.49 c_v=0.4596, c_npmi=-0.1969
+[HDP-2] iter= 100 llpw=-6.6560 ppl=777.43 Calculating multiple coherence metrics...
+[HDP-2] iter= 100 llpw=-6.6560 ppl=777.43 c_v=0.4611, c_npmi=-0.2046
+[HDP-2] iter= 150 llpw=-6.6454 ppl=769.26 Calculating multiple coherence metrics...
+[HDP-2] iter= 150 llpw=-6.6454 ppl=769.26 c_v=0.4613, c_npmi=-0.2104
+[HDP-2] iter= 200 llpw=-6.6378 ppl=763.39 Calculating multiple coherence metrics...
+[HDP-2] iter= 200 llpw=-6.6378 ppl=763.39 c_v=0.4574, c_npmi=-0.2202
+[HDP-2] iter= 250 llpw=-6.6360 ppl=762.08 Calculating multiple coherence metrics...
+[HDP-2] iter= 250 llpw=-6.6360 ppl=762.08 c_v=0.4596, c_npmi=-0.2281
+[HDP-2] iter= 300 llpw=-6.6316 ppl=758.72 Calculating multiple coherence metrics...
+[HDP-2] iter= 300 llpw=-6.6316 ppl=758.72 c_v=0.4584, c_npmi=-0.2235
+[HDP-2] iter= 350 llpw=-6.6299 ppl=757.44 Calculating multiple coherence metrics...
+[HDP-2] iter= 350 llpw=-6.6299 ppl=757.44 c_v=0.4564, c_npmi=-0.2227
+[HDP-2] iter= 400 llpw=-6.6287 ppl=756.53 Calculating multiple coherence metrics...
+[HDP-2] iter= 400 llpw=-6.6287 ppl=756.53 c_v=0.4580, c_npmi=-0.2314
+[HDP-2] early stop at iter 400
+📊 Attempt 2 Results:
+   - Effective topics: 253
+   - Total topics: 253
+   - Difference from target: 1
+
+--- Attempt 3/3: gamma=2.0 ---
+[HDP-3] iter=  50 llpw=-6.6667 ppl=785.77 Calculating multiple coherence metrics...
+[HDP-3] iter=  50 llpw=-6.6667 ppl=785.77 c_v=0.4623, c_npmi=-0.1832
+[HDP-3] iter= 100 llpw=-6.6521 ppl=774.43 Calculating multiple coherence metrics...
+[HDP-3] iter= 100 llpw=-6.6521 ppl=774.43 c_v=0.4651, c_npmi=-0.1976
+[HDP-3] iter= 150 llpw=-6.6445 ppl=768.58 Calculating multiple coherence metrics...
+[HDP-3] iter= 150 llpw=-6.6445 ppl=768.58 c_v=0.4642, c_npmi=-0.2003
+[HDP-3] iter= 200 llpw=-6.6405 ppl=765.45 Calculating multiple coherence metrics...
+[HDP-3] iter= 200 llpw=-6.6405 ppl=765.45 c_v=0.4645, c_npmi=-0.2038
+[HDP-3] iter= 250 llpw=-6.6352 ppl=761.41 Calculating multiple coherence metrics...
+[HDP-3] iter= 250 llpw=-6.6352 ppl=761.41 c_v=0.4651, c_npmi=-0.2087
+[HDP-3] iter= 300 llpw=-6.6341 ppl=760.59 Calculating multiple coherence metrics...
+[HDP-3] iter= 300 llpw=-6.6341 ppl=760.59 c_v=0.4617, c_npmi=-0.2138
+[HDP-3] iter= 350 llpw=-6.6281 ppl=756.02 Calculating multiple coherence metrics...
+[HDP-3] iter= 350 llpw=-6.6281 ppl=756.02 c_v=0.4639, c_npmi=-0.2168
+[HDP-3] early stop at iter 350
+📊 Attempt 3 Results:
+   - Effective topics: 253
+   - Total topics: 253
+   - Difference from target: 1
+
+✅ Training complete! Time taken: 171.5 seconds
+
+🔍 HDP Multiple Coherence Metrics Evaluation:
+================================================================================
+📊 Coherence Metrics Results:
+   📈 C_v (Vector Space Coherence): 0.449084
+   📈 NPMI (Normalized Pointwise Mutual Information): -0.246648
+
+📊 Basic Metrics:
+   📈 Effective topics: 253
+   📈 Total topics: 253
+   📈 Topic utilization: 100.0%
+
+💡 Coherence Metric Explanations:
+   🎯 C_v: Range [0,1], higher is better, based on word vector similarity
+   🎯 NPMI: Range [-1,1], higher is better, Normalized Pointwise Mutual Information
+
+🏆 Composite Coherence Score: 0.4129 (average of normalized scores)
+
+📈 Final Evaluation Results:
+   - Training iterations: 900
+   - Log-likelihood per word: -6.617967
+   - Perplexity: 748.42
+   - Coherence (C_v): 0.4491
+   - Coherence (NPMI): -0.2466
+   - Effective topics: 253
+   - Total topics: 253
+   - Target difference: 1
+   - Gamma used: 0.500
+
+🎯 hLDA Comparison Analysis:
+   - hLDA leaf nodes: 252
+   - HDP effective topics: 253
+   - Topic count difference: 1
+   ✅ Topic count is close to hLDA (difference ≤ 50)
+
+🔍 HDP Topic Analysis (showing top 5 words):
+================================================================================
+Topic   0 (weight:0.051): interface(0.051), domain(0.029), method(0.025), lagrange(0.025), multiplier(0.022)
+Topic   1 (weight:0.036): model(0.036), material(0.025), adhesive(0.022), fatigue(0.022), use(0.017)
+Topic   2 (weight:0.024): deposition(0.024), transmission(0.018), load(0.018), particle(0.018), flow(0.012)
+Topic   3 (weight:0.040): surface(0.040), damage(0.036), thickness(0.036), model(0.027), incorporate(0.018)
+Topic   4 (weight:0.037): system(0.037), model(0.029), provide(0.023), develop(0.021), framework(0.020)
+Topic   5 (weight:0.027): use(0.027), couple(0.025), form(0.022), fluid(0.018), method(0.018)
+Topic   6 (weight:0.032): interface(0.032), nitsches(0.032), stabilization(0.026), variant(0.026), nonsymmetric(0.026)
+Topic   7 (weight:0.047): structure(0.047), random(0.031), parameterized(0.031), field(0.027), finite(0.027)
+Topic   8 (weight:0.022): ability(0.022), able(0.011), share(0.011), certain(0.011), probability(0.011)
+Topic   9 (weight:0.064): interface(0.064), model(0.047), damage(0.037), interphase(0.027), cohesive(0.020)
+... (and 115 more active topics)
+
+📊 HDP Topic Statistics:
+   - Active topics: 125/253
+   - Topic activity rate: 49.4%
+
+🎯 HDP model evaluation complete!
+📊 Key Metrics:
+   - iterations: 900
+   - log_likelihood_per_word: -6.6180
+   - perplexity: 748.4221
+   - coherence_c_v: 0.4491
+   - effective_topics: 253
+   - total_topics: 253
+   - target_diff: 1
+   - gamma_used: 0.5000
+   - training_time_seconds: 171.5114
+   - convergence_iterations: 18
+   - coherence_c_npmi: -0.2466
+   - composite_score: 0.4129
+   - topic_utilization: 1.0000
+
+💾 HDP model is trained, features:
+   1. Non-parametric model (dynamic topic count, adjusted to be close to 252)
+   2. Hierarchical structure based on Dirichlet Process
+   3. Topic count optimized via gamma parameter
+   4. Suitable for fair comparison with hLDA
+
+📋 hLDA Comparison Preparation:
+   - hLDA leaf nodes: 252 topics
+   - HDP effective topics: 253 topics
+   - Topic count difference: 1
+   - Both models use the same dataset and preprocessing
+   - Perplexity and coherence can be directly compared
+
+📈 Do you want to view the HDP training curves?
+============================================================
+
+third time!
+
+🎯 Starting HDP model training - Optimized for hLDA comparison
+============================================================
+
+🎯 Training HDP model with the full dataset (for hLDA comparison)...
+📚 Using full dataset: 970 documents
+🚀 Starting to train HDP model for comparison with hLDA (seed=24)
+📊 Data Overview:
+   - Number of documents: 970
+   - Average document length: 85.8 words
+   - Vocabulary size: 1490
+   - Target number of topics: 252 (aligned with hLDA leaf nodes)
+🔄 Iteratively adjusting HDP parameters, target number of topics: 252
+
+--- Attempt 1/3: gamma=0.5 ---
+/tmp/ipykernel_31495/1858748832.py:208: RuntimeWarning: The training result may differ even with fixed seed if `workers` != 1.
+  mdl.train(interval)
+[HDP-1] iter=  50 llpw=-6.6703 ppl=788.60 Calculating multiple coherence metrics...
+[HDP-1] iter=  50 llpw=-6.6703 ppl=788.60 c_v=0.4736, c_npmi=-0.1841
+[HDP-1] iter= 100 llpw=-6.6496 ppl=772.48 Calculating multiple coherence metrics...
+[HDP-1] iter= 100 llpw=-6.6496 ppl=772.48 c_v=0.4655, c_npmi=-0.2024
+[HDP-1] iter= 150 llpw=-6.6409 ppl=765.80 Calculating multiple coherence metrics...
+[HDP-1] iter= 150 llpw=-6.6409 ppl=765.80 c_v=0.4663, c_npmi=-0.2042
+[HDP-1] iter= 200 llpw=-6.6347 ppl=761.04 Calculating multiple coherence metrics...
+[HDP-1] iter= 200 llpw=-6.6347 ppl=761.04 c_v=0.4649, c_npmi=-0.2089
+[HDP-1] iter= 250 llpw=-6.6319 ppl=758.93 Calculating multiple coherence metrics...
+[HDP-1] iter= 250 llpw=-6.6319 ppl=758.93 c_v=0.4614, c_npmi=-0.2206
+[HDP-1] iter= 300 llpw=-6.6318 ppl=758.87 Calculating multiple coherence metrics...
+[HDP-1] iter= 300 llpw=-6.6318 ppl=758.87 c_v=0.4591, c_npmi=-0.2241
+[HDP-1] iter= 350 llpw=-6.6258 ppl=754.28 Calculating multiple coherence metrics...
+[HDP-1] iter= 350 llpw=-6.6258 ppl=754.28 c_v=0.4548, c_npmi=-0.2345
+[HDP-1] early stop at iter 350
+📊 Attempt 1 Results:
+   - Effective topics: 253
+   - Total topics: 253
+   - Difference from target: 1
+
+--- Attempt 2/3: gamma=1.0 ---
+[HDP-2] iter=  50 llpw=-6.6675 ppl=786.43 Calculating multiple coherence metrics...
+[HDP-2] iter=  50 llpw=-6.6675 ppl=786.43 c_v=0.4659, c_npmi=-0.1987
+[HDP-2] iter= 100 llpw=-6.6467 ppl=770.26 Calculating multiple coherence metrics...
+[HDP-2] iter= 100 llpw=-6.6467 ppl=770.26 c_v=0.4581, c_npmi=-0.2227
+[HDP-2] iter= 150 llpw=-6.6402 ppl=765.25 Calculating multiple coherence metrics...
+[HDP-2] iter= 150 llpw=-6.6402 ppl=765.25 c_v=0.4566, c_npmi=-0.2316
+[HDP-2] iter= 200 llpw=-6.6335 ppl=760.14 Calculating multiple coherence metrics...
+[HDP-2] iter= 200 llpw=-6.6335 ppl=760.14 c_v=0.4557, c_npmi=-0.2388
+[HDP-2] iter= 250 llpw=-6.6330 ppl=759.77 Calculating multiple coherence metrics...
+[HDP-2] iter= 250 llpw=-6.6330 ppl=759.77 c_v=0.4528, c_npmi=-0.2485
+[HDP-2] iter= 300 llpw=-6.6295 ppl=757.10 Calculating multiple coherence metrics...
+[HDP-2] iter= 300 llpw=-6.6295 ppl=757.10 c_v=0.4493, c_npmi=-0.2518
+[HDP-2] iter= 350 llpw=-6.6300 ppl=757.45 Calculating multiple coherence metrics...
+[HDP-2] iter= 350 llpw=-6.6300 ppl=757.45 c_v=0.4480, c_npmi=-0.2541
+[HDP-2] early stop at iter 350
+📊 Attempt 2 Results:
+   - Effective topics: 253
+   - Total topics: 253
+   - Difference from target: 1
+
+--- Attempt 3/3: gamma=2.0 ---
+[HDP-3] iter=  50 llpw=-6.6679 ppl=786.72 Calculating multiple coherence metrics...
+[HDP-3] iter=  50 llpw=-6.6679 ppl=786.72 c_v=0.4749, c_npmi=-0.1765
+[HDP-3] iter= 100 llpw=-6.6459 ppl=769.61 Calculating multiple coherence metrics...
+[HDP-3] iter= 100 llpw=-6.6459 ppl=769.61 c_v=0.4726, c_npmi=-0.1994
+[HDP-3] iter= 150 llpw=-6.6326 ppl=759.48 Calculating multiple coherence metrics...
+[HDP-3] iter= 150 llpw=-6.6326 ppl=759.48 c_v=0.4706, c_npmi=-0.2025
+[HDP-3] iter= 200 llpw=-6.6296 ppl=757.20 Calculating multiple coherence metrics...
+[HDP-3] iter= 200 llpw=-6.6296 ppl=757.20 c_v=0.4692, c_npmi=-0.2159
+[HDP-3] iter= 250 llpw=-6.6294 ppl=757.05 Calculating multiple coherence metrics...
+[HDP-3] iter= 250 llpw=-6.6294 ppl=757.05 c_v=0.4655, c_npmi=-0.2189
+[HDP-3] iter= 300 llpw=-6.6239 ppl=752.86 Calculating multiple coherence metrics...
+[HDP-3] iter= 300 llpw=-6.6239 ppl=752.86 c_v=0.4626, c_npmi=-0.2228
+[HDP-3] iter= 350 llpw=-6.6244 ppl=753.25 Calculating multiple coherence metrics...
+[HDP-3] iter= 350 llpw=-6.6244 ppl=753.25 c_v=0.4635, c_npmi=-0.2203
+[HDP-3] iter= 400 llpw=-6.6225 ppl=751.86 Calculating multiple coherence metrics...
+[HDP-3] iter= 400 llpw=-6.6225 ppl=751.86 c_v=0.4640, c_npmi=-0.2208
+[HDP-3] early stop at iter 400
+📊 Attempt 3 Results:
+   - Effective topics: 253
+   - Total topics: 253
+   - Difference from target: 1
+
+✅ Training complete! Time taken: 106.2 seconds
+
+🔍 HDP Multiple Coherence Metrics Evaluation:
+================================================================================
+📊 Coherence Metrics Results:
+   📈 C_v (Vector Space Coherence): 0.454804
+   📈 NPMI (Normalized Pointwise Mutual Information): -0.234476
+
+📊 Basic Metrics:
+   📈 Effective topics: 253
+   📈 Total topics: 253
+   📈 Topic utilization: 100.0%
+
+💡 Coherence Metric Explanations:
+   🎯 C_v: Range [0,1], higher is better, based on word vector similarity
+   🎯 NPMI: Range [-1,1], higher is better, Normalized Pointwise Mutual Information
+
+🏆 Composite Coherence Score: 0.4188 (average of normalized scores)
+
+📈 Final Evaluation Results:
+   - Training iterations: 350
+   - Log-likelihood per word: -6.625761
+   - Perplexity: 754.28
+   - Coherence (C_v): 0.4548
+   - Coherence (NPMI): -0.2345
+   - Effective topics: 253
+   - Total topics: 253
+   - Target difference: 1
+   - Gamma used: 0.500
+
+🎯 hLDA Comparison Analysis:
+   - hLDA leaf nodes: 252
+   - HDP effective topics: 253
+   - Topic count difference: 1
+   ✅ Topic count is close to hLDA (difference ≤ 50)
+
+🔍 HDP Topic Analysis (showing top 5 words):
+================================================================================
+Topic   0 (weight:0.050): interface(0.050), domain(0.035), multiplier(0.028), formulation(0.028), lagrange(0.025)
+Topic   1 (weight:0.054): model(0.054), adhesive(0.029), fatigue(0.029), fibre(0.022), composite(0.018)
+Topic   2 (weight:0.085): fiber(0.085), orientation(0.055), model(0.039), element(0.014), use(0.014)
+Topic   3 (weight:0.052): element(0.052), solid(0.029), shell(0.025), propose(0.023), model(0.019)
+Topic   4 (weight:0.062): system(0.062), framework(0.026), energy(0.026), work(0.016), multiple(0.016)
+Topic   5 (weight:0.028): fsi(0.028), use(0.026), couple(0.024), fluid(0.023), form(0.020)
+Topic   6 (weight:0.028): spacetime(0.028), method(0.022), element(0.019), matrix(0.016), finite(0.016)
+Topic   7 (weight:0.028): size(0.028), sve(0.024), deposition(0.019), transmission(0.014), load(0.014)
+Topic   8 (weight:0.021): deformation(0.021), observe(0.021), distortion(0.014), liquid(0.014), polymer(0.014)
+Topic   9 (weight:0.038): article(0.038), original(0.029), error(0.019), correct(0.019), n(0.019)
+... (and 118 more active topics)
+
+📊 HDP Topic Statistics:
+   - Active topics: 128/253
+   - Topic activity rate: 50.6%
+
+🎯 HDP model evaluation complete!
+📊 Key Metrics:
+   - iterations: 350
+   - log_likelihood_per_word: -6.6258
+   - perplexity: 754.2780
+   - coherence_c_v: 0.4548
+   - effective_topics: 253
+   - total_topics: 253
+   - target_diff: 1
+   - gamma_used: 0.5000
+   - training_time_seconds: 106.2496
+   - convergence_iterations: 7
+   - coherence_c_npmi: -0.2345
+   - composite_score: 0.4188
+   - topic_utilization: 1.0000
+
+💾 HDP model is trained, features:
+   1. Non-parametric model (dynamic topic count, adjusted to be close to 252)
+   2. Hierarchical structure based on Dirichlet Process
+   3. Topic count optimized via gamma parameter
+   4. Suitable for fair comparison with hLDA
+
+📋 hLDA Comparison Preparation:
+   - hLDA leaf nodes: 252 topics
+   - HDP effective topics: 253 topics
+   - Topic count difference: 1
+   - Both models use the same dataset and preprocessing
+   - Perplexity and coherence can be directly compared
+
+📈 Do you want to view the HDP training curves?
+============================================================

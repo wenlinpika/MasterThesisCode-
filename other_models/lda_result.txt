@@ -1,0 +1,426 @@
+First time:
+
+🎯 Starting LDA model training
+============================================================
+
+🎯 Training LDA model with the full dataset...
+📚 Using full dataset: 970 documents
+🚀 Starting to train LDA model (seed=42)
+📊 Data Overview:
+   - Number of documents: 970
+   - Average document length: 85.8 words
+   - Vocabulary size: 1490
+
+🔧 Model Parameters:
+   - Number of topics K = 252
+   - Alpha = 0.1
+   - Eta = 0.05
+   - Max iterations = 2000
+   - Check interval = 100
+   - Coherence metrics = ['c_v', 'c_npmi']
+🚀 Creating LDA model (K=252, α=0.1, η=0.05, seed=42)
+[LDA] iter= 100 llpw=-7.5561 ppl=1912.37 Calculating multiple coherence metrics...
+/tmp/ipykernel_31495/1858748832.py:208: RuntimeWarning: The training result may differ even with fixed seed if `workers` != 1.
+  mdl.train(interval)
+[LDA] iter= 100 llpw=-7.5561 ppl=1912.37 c_v=0.5913, c_npmi=0.0473
+[LDA] iter= 200 llpw=-7.3976 ppl=1632.06 Calculating multiple coherence metrics...
+[LDA] iter= 200 llpw=-7.3976 ppl=1632.06 c_v=0.5808, c_npmi=0.0373
+[LDA] iter= 300 llpw=-7.3453 ppl=1548.92 Calculating multiple coherence metrics...
+[LDA] iter= 300 llpw=-7.3453 ppl=1548.92 c_v=0.5811, c_npmi=0.0220
+[LDA] iter= 400 llpw=-7.3288 ppl=1523.55 Calculating multiple coherence metrics...
+[LDA] iter= 400 llpw=-7.3288 ppl=1523.55 c_v=0.5747, c_npmi=0.0144
+[LDA] iter= 500 llpw=-7.3145 ppl=1501.96 Calculating multiple coherence metrics...
+[LDA] iter= 500 llpw=-7.3145 ppl=1501.96 c_v=0.5626, c_npmi=0.0044
+[LDA] iter= 600 llpw=-7.2968 ppl=1475.60 Calculating multiple coherence metrics...
+[LDA] iter= 600 llpw=-7.2968 ppl=1475.60 c_v=0.5597, c_npmi=0.0041
+[LDA] iter= 700 llpw=-7.2803 ppl=1451.39 Calculating multiple coherence metrics...
+[LDA] iter= 700 llpw=-7.2803 ppl=1451.39 c_v=0.5518, c_npmi=-0.0083
+[LDA] iter= 800 llpw=-7.2833 ppl=1455.78 Calculating multiple coherence metrics...
+[LDA] iter= 800 llpw=-7.2833 ppl=1455.78 c_v=0.5527, c_npmi=-0.0100
+[LDA] iter= 900 llpw=-7.2519 ppl=1410.85 Calculating multiple coherence metrics...
+[LDA] iter= 900 llpw=-7.2519 ppl=1410.85 c_v=0.5571, c_npmi=-0.0139
+[LDA] iter=1000 llpw=-7.2345 ppl=1386.39 Calculating multiple coherence metrics...
+[LDA] iter=1000 llpw=-7.2345 ppl=1386.39 c_v=0.5501, c_npmi=-0.0177
+[LDA] iter=1100 llpw=-7.2338 ppl=1385.47 Calculating multiple coherence metrics...
+[LDA] iter=1100 llpw=-7.2338 ppl=1385.47 c_v=0.5607, c_npmi=-0.0150
+[LDA] iter=1200 llpw=-7.2084 ppl=1350.78 Calculating multiple coherence metrics...
+[LDA] iter=1200 llpw=-7.2084 ppl=1350.78 c_v=0.5560, c_npmi=-0.0249
+[LDA] iter=1300 llpw=-7.2336 ppl=1385.20 Calculating multiple coherence metrics...
+[LDA] iter=1300 llpw=-7.2336 ppl=1385.20 c_v=0.5577, c_npmi=-0.0243
+[LDA] iter=1400 llpw=-7.2278 ppl=1377.25 Calculating multiple coherence metrics...
+[LDA] iter=1400 llpw=-7.2278 ppl=1377.25 c_v=0.5607, c_npmi=-0.0296
+[LDA] iter=1500 llpw=-7.2114 ppl=1354.82 Calculating multiple coherence metrics...
+[LDA] iter=1500 llpw=-7.2114 ppl=1354.82 c_v=0.5568, c_npmi=-0.0223
+[LDA] iter=1600 llpw=-7.2125 ppl=1356.23 Calculating multiple coherence metrics...
+[LDA] iter=1600 llpw=-7.2125 ppl=1356.23 c_v=0.5536, c_npmi=-0.0261
+[LDA] iter=1700 llpw=-7.2033 ppl=1343.79 Calculating multiple coherence metrics...
+[LDA] iter=1700 llpw=-7.2033 ppl=1343.79 c_v=0.5568, c_npmi=-0.0292
+[LDA] iter=1800 llpw=-7.2141 ppl=1358.40 Calculating multiple coherence metrics...
+[LDA] iter=1800 llpw=-7.2141 ppl=1358.40 c_v=0.5523, c_npmi=-0.0332
+[LDA] iter=1900 llpw=-7.1965 ppl=1334.73 Calculating multiple coherence metrics...
+[LDA] iter=1900 llpw=-7.1965 ppl=1334.73 c_v=0.5607, c_npmi=-0.0372
+[LDA] iter=2000 llpw=-7.1796 ppl=1312.36 Calculating multiple coherence metrics...
+[LDA] iter=2000 llpw=-7.1796 ppl=1312.36 c_v=0.5520, c_npmi=-0.0386
+
+✅ Training complete! Time taken: 653.4 seconds
+
+🔍 Performing full evaluation with multiple coherence metrics...
+
+🔍 LDA Multiple Coherence Metrics Evaluation:
+================================================================================
+📊 Coherence Metrics Results:
+   📈 C_v (Vector Space Coherence): 0.551993
+   📈 NPMI (Normalized Pointwise Mutual Information): -0.038589
+
+📊 Basic Metrics:
+   📈 Effective topics: 252
+   📈 Total topics: 252
+   📈 Topic utilization: 100.0%
+
+💡 Coherence Metric Explanations:
+   🎯 C_v: Range [0,1], higher is better, based on word vector similarity
+   🎯 NPMI: Range [-1,1], higher is better, Normalized Pointwise Mutual Information
+
+🏆 Composite Coherence Score: 0.5163 (average of normalized scores)
+
+📈 Final Evaluation Results:
+   - Training iterations: 2000
+   - Log-likelihood per word: -7.179586
+   - Perplexity: 1312.36
+   - Effective topics: 252/252
+
+📊 Multiple Coherence Metrics:
+   - C_v (Vector Space): 0.551993
+   - NPMI (Pointwise Mutual Information): -0.038589
+   - Composite Score: 0.516349
+   - Topic Utilization: 100.0%
+   - Convergence history length: 20
+
+📊 Training Improvement:
+   - Perplexity improvement: 1912.37 → 1312.36 (↓600.01)
+   - C_v improvement: 0.5913 → 0.5520 (↑-0.0393)
+   - NPMI improvement: 0.0473 → -0.0386 (↑-0.0858)
+   - Log-likelihood improvement: -7.556101 → -7.179586 (↑0.376515)
+
+🔍 LDA Topic Analysis (showing top 5 words):
+================================================================================
+Topic   0 (weight:0.042): distribution(0.042), available(0.024), length(0.024), generate(0.024), rather(0.018)
+Topic   1 (weight:0.049): elastoplastic(0.049), stress(0.038), joint(0.032), scm(0.027), static(0.022)
+Topic   2 (weight:0.068): bayesian(0.068), model(0.061), uncertainty(0.045), parameter(0.039), prediction(0.035)
+Topic   4 (weight:0.102): element(0.102), displacement(0.072), freedom(0.062), degree(0.058), couple(0.038)
+Topic   5 (weight:0.049): mode(0.049), instability(0.049), membrane(0.038), symmetry(0.033), load(0.027)
+Topic   6 (weight:0.021): comprise(0.021), total(0.021), specifically(0.021), detailed(0.021), generally(0.011)
+Topic   8 (weight:0.061): mass(0.061), matrix(0.061), order(0.056), high(0.043), superconvergent(0.035)
+Topic   9 (weight:0.038): discretization(0.038), zss(0.028), basis(0.026), use(0.024), computation(0.023)
+Topic  10 (weight:0.177): material(0.177), property(0.047), response(0.045), mechanical(0.037), behavior(0.029)
+Topic  12 (weight:0.169): crack(0.169), xfem(0.060), fracture(0.058), propagation(0.054), tip(0.034)
+... (and 197 more active topics)
+
+📊 LDA Topic Statistics:
+   - Active topics: 207/252
+   - Topic activity rate: 82.1%
+
+🎯 LDA model evaluation complete!
+📊 Key Metrics:
+   - iterations: 2000
+   - log_likelihood_per_word: -7.1796
+   - perplexity: 1312.3646
+   - coherence_c_v: 0.5520
+   - coherence_npmi: -0.0386
+   - effective_topics: 252
+   - training_time_seconds: 653.3904
+   - convergence_iterations: 20
+   - composite_score: 0.5163
+   - topic_utilization: 1.0000
+
+💾 Model is trained and can be used for:
+   1. Topic word extraction
+   2. Document-topic distribution analysis
+   3. Comparison with other models
+   4. Topic evolution analysis
+============================================================
+
+
+Second time!
+
+🎯 Starting LDA model training
+============================================================
+
+🎯 Training LDA model with the full dataset...
+📚 Using full dataset: 970 documents
+🚀 Starting to train LDA model (seed=42)
+📊 Data Overview:
+   - Number of documents: 970
+   - Average document length: 85.8 words
+   - Vocabulary size: 1490
+
+🔧 Model Parameters:
+   - Number of topics K = 252
+   - Alpha = 0.1
+   - Eta = 0.05
+   - Max iterations = 2000
+   - Check interval = 100
+   - Coherence metrics = ['c_v', 'c_npmi']
+🚀 Creating LDA model (K=252, α=0.1, η=0.05, seed=42)
+[LDA] iter= 100 llpw=-7.5561 ppl=1912.37 Calculating multiple coherence metrics...
+/tmp/ipykernel_26115/1858748832.py:208: RuntimeWarning: The training result may differ even with fixed seed if `workers` != 1.
+  mdl.train(interval)
+[LDA] iter= 100 llpw=-7.5561 ppl=1912.37 c_v=0.5913, c_npmi=0.0473
+[LDA] iter= 200 llpw=-7.3976 ppl=1632.06 Calculating multiple coherence metrics...
+[LDA] iter= 200 llpw=-7.3976 ppl=1632.06 c_v=0.5808, c_npmi=0.0373
+[LDA] iter= 300 llpw=-7.3453 ppl=1548.92 Calculating multiple coherence metrics...
+[LDA] iter= 300 llpw=-7.3453 ppl=1548.92 c_v=0.5811, c_npmi=0.0220
+[LDA] iter= 400 llpw=-7.3288 ppl=1523.55 Calculating multiple coherence metrics...
+[LDA] iter= 400 llpw=-7.3288 ppl=1523.55 c_v=0.5747, c_npmi=0.0144
+[LDA] iter= 500 llpw=-7.3145 ppl=1501.96 Calculating multiple coherence metrics...
+[LDA] iter= 500 llpw=-7.3145 ppl=1501.96 c_v=0.5626, c_npmi=0.0044
+[LDA] iter= 600 llpw=-7.2968 ppl=1475.60 Calculating multiple coherence metrics...
+[LDA] iter= 600 llpw=-7.2968 ppl=1475.60 c_v=0.5597, c_npmi=0.0041
+[LDA] iter= 700 llpw=-7.2803 ppl=1451.39 Calculating multiple coherence metrics...
+[LDA] iter= 700 llpw=-7.2803 ppl=1451.39 c_v=0.5518, c_npmi=-0.0083
+[LDA] iter= 800 llpw=-7.2833 ppl=1455.78 Calculating multiple coherence metrics...
+[LDA] iter= 800 llpw=-7.2833 ppl=1455.78 c_v=0.5527, c_npmi=-0.0100
+[LDA] iter= 900 llpw=-7.2519 ppl=1410.85 Calculating multiple coherence metrics...
+[LDA] iter= 900 llpw=-7.2519 ppl=1410.85 c_v=0.5571, c_npmi=-0.0139
+[LDA] iter=1000 llpw=-7.2345 ppl=1386.39 Calculating multiple coherence metrics...
+[LDA] iter=1000 llpw=-7.2345 ppl=1386.39 c_v=0.5501, c_npmi=-0.0177
+[LDA] iter=1100 llpw=-7.2338 ppl=1385.47 Calculating multiple coherence metrics...
+[LDA] iter=1100 llpw=-7.2338 ppl=1385.47 c_v=0.5607, c_npmi=-0.0150
+[LDA] iter=1200 llpw=-7.2084 ppl=1350.78 Calculating multiple coherence metrics...
+[LDA] iter=1200 llpw=-7.2084 ppl=1350.78 c_v=0.5560, c_npmi=-0.0249
+[LDA] iter=1300 llpw=-7.2336 ppl=1385.20 Calculating multiple coherence metrics...
+[LDA] iter=1300 llpw=-7.2336 ppl=1385.20 c_v=0.5577, c_npmi=-0.0243
+[LDA] iter=1400 llpw=-7.2278 ppl=1377.25 Calculating multiple coherence metrics...
+[LDA] iter=1400 llpw=-7.2278 ppl=1377.25 c_v=0.5607, c_npmi=-0.0296
+[LDA] iter=1500 llpw=-7.2114 ppl=1354.82 Calculating multiple coherence metrics...
+[LDA] iter=1500 llpw=-7.2114 ppl=1354.82 c_v=0.5568, c_npmi=-0.0223
+[LDA] iter=1600 llpw=-7.2125 ppl=1356.23 Calculating multiple coherence metrics...
+[LDA] iter=1600 llpw=-7.2125 ppl=1356.23 c_v=0.5536, c_npmi=-0.0261
+[LDA] iter=1700 llpw=-7.2033 ppl=1343.79 Calculating multiple coherence metrics...
+[LDA] iter=1700 llpw=-7.2033 ppl=1343.79 c_v=0.5568, c_npmi=-0.0292
+[LDA] iter=1800 llpw=-7.2141 ppl=1358.40 Calculating multiple coherence metrics...
+[LDA] iter=1800 llpw=-7.2141 ppl=1358.40 c_v=0.5523, c_npmi=-0.0332
+[LDA] iter=1900 llpw=-7.1965 ppl=1334.73 Calculating multiple coherence metrics...
+[LDA] iter=1900 llpw=-7.1965 ppl=1334.73 c_v=0.5607, c_npmi=-0.0372
+[LDA] iter=2000 llpw=-7.1796 ppl=1312.36 Calculating multiple coherence metrics...
+[LDA] iter=2000 llpw=-7.1796 ppl=1312.36 c_v=0.5520, c_npmi=-0.0386
+
+✅ Training complete! Time taken: 903.8 seconds
+
+🔍 Performing full evaluation with multiple coherence metrics...
+
+🔍 LDA Multiple Coherence Metrics Evaluation:
+================================================================================
+📊 Coherence Metrics Results:
+   📈 C_v (Vector Space Coherence): 0.551993
+   📈 NPMI (Normalized Pointwise Mutual Information): -0.038589
+
+📊 Basic Metrics:
+   📈 Effective topics: 252
+   📈 Total topics: 252
+   📈 Topic utilization: 100.0%
+
+💡 Coherence Metric Explanations:
+   🎯 C_v: Range [0,1], higher is better, based on word vector similarity
+   🎯 NPMI: Range [-1,1], higher is better, Normalized Pointwise Mutual Information
+
+🏆 Composite Coherence Score: 0.5163 (average of normalized scores)
+
+📈 Final Evaluation Results:
+   - Training iterations: 2000
+   - Log-likelihood per word: -7.179586
+   - Perplexity: 1312.36
+   - Effective topics: 252/252
+
+📊 Multiple Coherence Metrics:
+   - C_v (Vector Space): 0.551993
+   - NPMI (Pointwise Mutual Information): -0.038589
+   - Composite Score: 0.516349
+   - Topic Utilization: 100.0%
+   - Convergence history length: 20
+
+📊 Training Improvement:
+   - Perplexity improvement: 1912.37 → 1312.36 (↓600.01)
+   - C_v improvement: 0.5913 → 0.5520 (↑-0.0393)
+   - NPMI improvement: 0.0473 → -0.0386 (↑-0.0858)
+   - Log-likelihood improvement: -7.556101 → -7.179586 (↑0.376515)
+
+🔍 LDA Topic Analysis (showing top 5 words):
+================================================================================
+Topic   0 (weight:0.042): distribution(0.042), available(0.024), length(0.024), generate(0.024), rather(0.018)
+Topic   1 (weight:0.049): elastoplastic(0.049), stress(0.038), joint(0.032), scm(0.027), static(0.022)
+Topic   2 (weight:0.068): bayesian(0.068), model(0.061), uncertainty(0.045), parameter(0.039), prediction(0.035)
+Topic   4 (weight:0.102): element(0.102), displacement(0.072), freedom(0.062), degree(0.058), couple(0.038)
+Topic   5 (weight:0.049): mode(0.049), instability(0.049), membrane(0.038), symmetry(0.033), load(0.027)
+Topic   6 (weight:0.021): comprise(0.021), total(0.021), specifically(0.021), detailed(0.021), generally(0.011)
+Topic   8 (weight:0.061): mass(0.061), matrix(0.061), order(0.056), high(0.043), superconvergent(0.035)
+Topic   9 (weight:0.038): discretization(0.038), zss(0.028), basis(0.026), use(0.024), computation(0.023)
+Topic  10 (weight:0.177): material(0.177), property(0.047), response(0.045), mechanical(0.037), behavior(0.029)
+Topic  12 (weight:0.169): crack(0.169), xfem(0.060), fracture(0.058), propagation(0.054), tip(0.034)
+... (and 197 more active topics)
+
+📊 LDA Topic Statistics:
+   - Active topics: 207/252
+   - Topic activity rate: 82.1%
+
+🎯 LDA model evaluation complete!
+📊 Key Metrics:
+   - iterations: 2000
+   - log_likelihood_per_word: -7.1796
+   - perplexity: 1312.3646
+   - coherence_c_v: 0.5520
+   - coherence_npmi: -0.0386
+   - effective_topics: 252
+   - training_time_seconds: 903.7977
+   - convergence_iterations: 20
+   - composite_score: 0.5163
+   - topic_utilization: 1.0000
+
+💾 Model is trained and can be used for:
+   1. Topic word extraction
+   2. Document-topic distribution analysis
+   3. Comparison with other models
+   4. Topic evolution analysis
+============================================================
+
+Third time!
+
+🎯 Starting LDA model training
+============================================================
+
+🎯 Training LDA model with the full dataset...
+📚 Using full dataset: 970 documents
+🚀 Starting to train LDA model (seed=42)
+📊 Data Overview:
+   - Number of documents: 970
+   - Average document length: 85.8 words
+   - Vocabulary size: 1490
+
+🔧 Model Parameters:
+   - Number of topics K = 252
+   - Alpha = 0.1
+   - Eta = 0.05
+   - Max iterations = 2000
+   - Check interval = 100
+   - Coherence metrics = ['c_v', 'c_npmi']
+🚀 Creating LDA model (K=252, α=0.1, η=0.05, seed=42)
+[LDA] iter= 100 llpw=-7.5561 ppl=1912.37 Calculating multiple coherence metrics...
+/tmp/ipykernel_19730/1858748832.py:208: RuntimeWarning: The training result may differ even with fixed seed if `workers` != 1.
+  mdl.train(interval)
+[LDA] iter= 100 llpw=-7.5561 ppl=1912.37 c_v=0.5913, c_npmi=0.0473
+[LDA] iter= 200 llpw=-7.3976 ppl=1632.06 Calculating multiple coherence metrics...
+[LDA] iter= 200 llpw=-7.3976 ppl=1632.06 c_v=0.5808, c_npmi=0.0373
+[LDA] iter= 300 llpw=-7.3453 ppl=1548.92 Calculating multiple coherence metrics...
+[LDA] iter= 300 llpw=-7.3453 ppl=1548.92 c_v=0.5811, c_npmi=0.0220
+[LDA] iter= 400 llpw=-7.3288 ppl=1523.55 Calculating multiple coherence metrics...
+[LDA] iter= 400 llpw=-7.3288 ppl=1523.55 c_v=0.5747, c_npmi=0.0144
+[LDA] iter= 500 llpw=-7.3145 ppl=1501.96 Calculating multiple coherence metrics...
+[LDA] iter= 500 llpw=-7.3145 ppl=1501.96 c_v=0.5626, c_npmi=0.0044
+[LDA] iter= 600 llpw=-7.2968 ppl=1475.60 Calculating multiple coherence metrics...
+[LDA] iter= 600 llpw=-7.2968 ppl=1475.60 c_v=0.5597, c_npmi=0.0041
+[LDA] iter= 700 llpw=-7.2803 ppl=1451.39 Calculating multiple coherence metrics...
+[LDA] iter= 700 llpw=-7.2803 ppl=1451.39 c_v=0.5518, c_npmi=-0.0083
+[LDA] iter= 800 llpw=-7.2833 ppl=1455.78 Calculating multiple coherence metrics...
+[LDA] iter= 800 llpw=-7.2833 ppl=1455.78 c_v=0.5527, c_npmi=-0.0100
+[LDA] iter= 900 llpw=-7.2519 ppl=1410.85 Calculating multiple coherence metrics...
+[LDA] iter= 900 llpw=-7.2519 ppl=1410.85 c_v=0.5571, c_npmi=-0.0139
+[LDA] iter=1000 llpw=-7.2345 ppl=1386.39 Calculating multiple coherence metrics...
+[LDA] iter=1000 llpw=-7.2345 ppl=1386.39 c_v=0.5501, c_npmi=-0.0177
+[LDA] iter=1100 llpw=-7.2338 ppl=1385.47 Calculating multiple coherence metrics...
+[LDA] iter=1100 llpw=-7.2338 ppl=1385.47 c_v=0.5607, c_npmi=-0.0150
+[LDA] iter=1200 llpw=-7.2084 ppl=1350.78 Calculating multiple coherence metrics...
+[LDA] iter=1200 llpw=-7.2084 ppl=1350.78 c_v=0.5560, c_npmi=-0.0249
+[LDA] iter=1300 llpw=-7.2336 ppl=1385.20 Calculating multiple coherence metrics...
+[LDA] iter=1300 llpw=-7.2336 ppl=1385.20 c_v=0.5577, c_npmi=-0.0243
+[LDA] iter=1400 llpw=-7.2278 ppl=1377.25 Calculating multiple coherence metrics...
+[LDA] iter=1400 llpw=-7.2278 ppl=1377.25 c_v=0.5607, c_npmi=-0.0296
+[LDA] iter=1500 llpw=-7.2114 ppl=1354.82 Calculating multiple coherence metrics...
+[LDA] iter=1500 llpw=-7.2114 ppl=1354.82 c_v=0.5568, c_npmi=-0.0223
+[LDA] iter=1600 llpw=-7.2125 ppl=1356.23 Calculating multiple coherence metrics...
+[LDA] iter=1600 llpw=-7.2125 ppl=1356.23 c_v=0.5536, c_npmi=-0.0261
+[LDA] iter=1700 llpw=-7.2033 ppl=1343.79 Calculating multiple coherence metrics...
+[LDA] iter=1700 llpw=-7.2033 ppl=1343.79 c_v=0.5568, c_npmi=-0.0292
+[LDA] iter=1800 llpw=-7.2141 ppl=1358.40 Calculating multiple coherence metrics...
+[LDA] iter=1800 llpw=-7.2141 ppl=1358.40 c_v=0.5523, c_npmi=-0.0332
+[LDA] iter=1900 llpw=-7.1965 ppl=1334.73 Calculating multiple coherence metrics...
+[LDA] iter=1900 llpw=-7.1965 ppl=1334.73 c_v=0.5607, c_npmi=-0.0372
+[LDA] iter=2000 llpw=-7.1796 ppl=1312.36 Calculating multiple coherence metrics...
+[LDA] iter=2000 llpw=-7.1796 ppl=1312.36 c_v=0.5520, c_npmi=-0.0386
+
+✅ Training complete! Time taken: 589.2 seconds
+
+🔍 Performing full evaluation with multiple coherence metrics...
+
+🔍 LDA Multiple Coherence Metrics Evaluation:
+================================================================================
+📊 Coherence Metrics Results:
+   📈 C_v (Vector Space Coherence): 0.551993
+   📈 NPMI (Normalized Pointwise Mutual Information): -0.038589
+
+📊 Basic Metrics:
+   📈 Effective topics: 252
+   📈 Total topics: 252
+   📈 Topic utilization: 100.0%
+
+💡 Coherence Metric Explanations:
+   🎯 C_v: Range [0,1], higher is better, based on word vector similarity
+   🎯 NPMI: Range [-1,1], higher is better, Normalized Pointwise Mutual Information
+
+🏆 Composite Coherence Score: 0.5163 (average of normalized scores)
+
+📈 Final Evaluation Results:
+   - Training iterations: 2000
+   - Log-likelihood per word: -7.179586
+   - Perplexity: 1312.36
+   - Effective topics: 252/252
+
+📊 Multiple Coherence Metrics:
+   - C_v (Vector Space): 0.551993
+   - NPMI (Pointwise Mutual Information): -0.038589
+   - Composite Score: 0.516349
+   - Topic Utilization: 100.0%
+   - Convergence history length: 20
+
+📊 Training Improvement:
+   - Perplexity improvement: 1912.37 → 1312.36 (↓600.01)
+   - C_v improvement: 0.5913 → 0.5520 (↑-0.0393)
+   - NPMI improvement: 0.0473 → -0.0386 (↑-0.0858)
+   - Log-likelihood improvement: -7.556101 → -7.179586 (↑0.376515)
+
+🔍 LDA Topic Analysis (showing top 5 words):
+================================================================================
+Topic   0 (weight:0.042): distribution(0.042), available(0.024), length(0.024), generate(0.024), rather(0.018)
+Topic   1 (weight:0.049): elastoplastic(0.049), stress(0.038), joint(0.032), scm(0.027), static(0.022)
+Topic   2 (weight:0.068): bayesian(0.068), model(0.061), uncertainty(0.045), parameter(0.039), prediction(0.035)
+Topic   4 (weight:0.102): element(0.102), displacement(0.072), freedom(0.062), degree(0.058), couple(0.038)
+Topic   5 (weight:0.049): mode(0.049), instability(0.049), membrane(0.038), symmetry(0.033), load(0.027)
+Topic   6 (weight:0.021): comprise(0.021), total(0.021), specifically(0.021), detailed(0.021), generally(0.011)
+Topic   8 (weight:0.061): mass(0.061), matrix(0.061), order(0.056), high(0.043), superconvergent(0.035)
+Topic   9 (weight:0.038): discretization(0.038), zss(0.028), basis(0.026), use(0.024), computation(0.023)
+Topic  10 (weight:0.177): material(0.177), property(0.047), response(0.045), mechanical(0.037), behavior(0.029)
+Topic  12 (weight:0.169): crack(0.169), xfem(0.060), fracture(0.058), propagation(0.054), tip(0.034)
+... (and 197 more active topics)
+
+📊 LDA Topic Statistics:
+   - Active topics: 207/252
+   - Topic activity rate: 82.1%
+
+🎯 LDA model evaluation complete!
+📊 Key Metrics:
+   - iterations: 2000
+   - log_likelihood_per_word: -7.1796
+   - perplexity: 1312.3646
+   - coherence_c_v: 0.5520
+   - coherence_npmi: -0.0386
+   - effective_topics: 252
+   - training_time_seconds: 589.2388
+   - convergence_iterations: 20
+   - composite_score: 0.5163
+   - topic_utilization: 1.0000
+
+💾 Model is trained and can be used for:
+   1. Topic word extraction
+   2. Document-topic distribution analysis
+   3. Comparison with other models
+   4. Topic evolution analysis
+============================================================

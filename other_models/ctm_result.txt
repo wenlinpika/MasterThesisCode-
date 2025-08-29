@@ -1,0 +1,242 @@
+First time!
+
+🎯 Starting CTM model training
+============================================================
+
+🎯 Training CTM model with the full dataset...
+📚 Using full dataset: 970 documents
+🚀 Starting to train CTM model (seed=42)
+📊 Data Overview:
+   - Number of documents: 970
+   - Average document length: 85.8 words
+   - Vocabulary size: 1490
+
+🔧 Model Parameters:
+   - Number of topics K = 128
+   - Alpha = 0.1
+   - Eta = 0.05
+   - Max iterations = 2000
+   - Check interval = 100
+   - Multiple coherence metrics: Enabled (C_v, NPMI)
+🚀 Creating CTM model (K=128, α=0.1, η=0.05, seed=42)
+[CTM] iter= 100 llpw=-8.7286 ppl=6177.33 Calculating multiple coherence metrics...
+/tmp/ipykernel_31495/1858748832.py:208: RuntimeWarning: The training result may differ even with fixed seed if `workers` != 1.
+  mdl.train(interval)
+[CTM] iter= 100 llpw=-8.7286 ppl=6177.33 c_v=0.5778, c_npmi=0.0252
+[CTM] iter= 200 llpw=-8.5643 ppl=5241.21 Calculating multiple coherence metrics...
+[CTM] iter= 200 llpw=-8.5643 ppl=5241.21 c_v=0.6154, c_npmi=0.0525
+[CTM] iter= 300 llpw=-8.5199 ppl=5013.65 Calculating multiple coherence metrics...
+[CTM] iter= 300 llpw=-8.5199 ppl=5013.65 c_v=0.6236, c_npmi=0.0592
+/__w/tomotopy/tomotopy/src/TopicModel/../Utils/TruncMultiNormal.hpp(56): wrong truncation range [-0.626873, -0.626908]
+/__w/tomotopy/tomotopy/src/TopicModel/../Utils/TruncMultiNormal.hpp(56): wrong truncation range [-0.131517, -0.131764]
+/__w/tomotopy/tomotopy/src/TopicModel/../Utils/TruncMultiNormal.hpp(56): wrong truncation range [-0.860154, -0.860389]
+[CTM] iter= 400 llpw=-8.4664 ppl=4752.33 Calculating multiple coherence metrics...
+[CTM] iter= 400 llpw=-8.4664 ppl=4752.33 c_v=0.6092, c_npmi=0.0601
+[CTM] iter= 500 llpw=-8.4516 ppl=4682.58 Calculating multiple coherence metrics...
+[CTM] iter= 500 llpw=-8.4516 ppl=4682.58 c_v=0.6269, c_npmi=0.0766
+[CTM] iter= 600 llpw=-8.4373 ppl=4615.88 Calculating multiple coherence metrics...
+[CTM] iter= 600 llpw=-8.4373 ppl=4615.88 c_v=0.6332, c_npmi=0.0677
+[CTM] iter= 700 llpw=-8.4112 ppl=4497.23 Calculating multiple coherence metrics...
+[CTM] iter= 700 llpw=-8.4112 ppl=4497.23 c_v=0.6337, c_npmi=0.0721
+[CTM] iter= 800 llpw=-8.3885 ppl=4396.32 Calculating multiple coherence metrics...
+[CTM] iter= 800 llpw=-8.3885 ppl=4396.32 c_v=0.6359, c_npmi=0.0718
+[CTM] iter= 900 llpw=-8.3858 ppl=4384.57 Calculating multiple coherence metrics...
+[CTM] iter= 900 llpw=-8.3858 ppl=4384.57 c_v=0.6384, c_npmi=0.0745
+[CTM] iter=1000 llpw=-8.3803 ppl=4360.17 Calculating multiple coherence metrics...
+[CTM] iter=1000 llpw=-8.3803 ppl=4360.17 c_v=0.6377, c_npmi=0.0859
+[CTM] iter=1100 llpw=-8.3950 ppl=4425.07 Calculating multiple coherence metrics...
+[CTM] iter=1100 llpw=-8.3950 ppl=4425.07 c_v=0.6498, c_npmi=0.0957
+[CTM] iter=1200 llpw=-8.4080 ppl=4482.94 Calculating multiple coherence metrics...
+[CTM] iter=1200 llpw=-8.4080 ppl=4482.94 c_v=0.6466, c_npmi=0.0835
+[CTM] iter=1300 llpw=-8.3828 ppl=4371.28 Calculating multiple coherence metrics...
+[CTM] iter=1300 llpw=-8.3828 ppl=4371.28 c_v=0.6473, c_npmi=0.0833
+[CTM] iter=1400 llpw=-8.3775 ppl=4348.25 Calculating multiple coherence metrics...
+[CTM] iter=1400 llpw=-8.3775 ppl=4348.25 c_v=0.6481, c_npmi=0.0873
+[CTM] iter=1500 llpw=-8.3783 ppl=4351.67 Calculating multiple coherence metrics...
+[CTM] iter=1500 llpw=-8.3783 ppl=4351.67 c_v=0.6544, c_npmi=0.0908
+[CTM] iter=1600 llpw=-8.3777 ppl=4348.98 Calculating multiple coherence metrics...
+[CTM] iter=1600 llpw=-8.3777 ppl=4348.98 c_v=0.6459, c_npmi=0.0907
+[CTM] iter=1700 llpw=-8.3826 ppl=4370.30 Calculating multiple coherence metrics...
+[CTM] iter=1700 llpw=-8.3826 ppl=4370.30 c_v=0.6479, c_npmi=0.0892
+[CTM] iter=1800 llpw=-8.3990 ppl=4442.75 Calculating multiple coherence metrics...
+[CTM] iter=1800 llpw=-8.3990 ppl=4442.75 c_v=0.6559, c_npmi=0.0763
+[CTM] iter=1900 llpw=-8.3837 ppl=4375.16 Calculating multiple coherence metrics...
+[CTM] iter=1900 llpw=-8.3837 ppl=4375.16 c_v=0.6434, c_npmi=0.0810
+[CTM] iter=2000 llpw=-8.3920 ppl=4411.44 Calculating multiple coherence metrics...
+[CTM] iter=2000 llpw=-8.3920 ppl=4411.44 c_v=0.6333, c_npmi=0.0961
+
+✅ Training complete! Time taken: 3019.2 seconds
+
+📈 Final Evaluation Results:
+   - Training iterations: 2000
+   - Log-likelihood per word: -8.391956
+   - Perplexity: 4411.44
+   - Coherence (C_v): 0.6333
+   - Effective topics: 128/128
+   - Convergence history length: 20
+
+📊 Training Improvement:
+   - Perplexity improvement: 6177.33 → 4411.44 (↓1765.90)
+
+second time!
+
+🎯 Starting CTM model training
+============================================================
+
+🎯 Training CTM model with the full dataset...
+📚 Using full dataset: 970 documents
+🚀 Starting to train CTM model (seed=42)
+📊 Data Overview:
+   - Number of documents: 970
+   - Average document length: 85.8 words
+   - Vocabulary size: 1490
+
+🔧 Model Parameters:
+   - Number of topics K = 128
+   - Alpha = 0.1
+   - Eta = 0.05
+   - Max iterations = 2000
+   - Check interval = 100
+   - Multiple coherence metrics: Enabled (C_v, NPMI)
+🚀 Creating CTM model (K=128, α=0.1, η=0.05, seed=42)
+[CTM] iter= 100 llpw=-8.7095 ppl=6060.31 Calculating multiple coherence metrics.../tmp/ipykernel_26115/1858748832.py:208: RuntimeWarning: The training result may differ even with fixed seed if `workers` != 1.
+  mdl.train(interval)
+
+[CTM] iter= 100 llpw=-8.7095 ppl=6060.31 c_v=0.5696, c_npmi=0.0361
+[CTM] iter= 200 llpw=-8.6260 ppl=5574.85 Calculating multiple coherence metrics...
+[CTM] iter= 200 llpw=-8.6260 ppl=5574.85 c_v=0.5986, c_npmi=0.0415
+[CTM] iter= 300 llpw=-8.5809 ppl=5329.04 Calculating multiple coherence metrics...
+[CTM] iter= 300 llpw=-8.5809 ppl=5329.04 c_v=0.6199, c_npmi=0.0623
+[CTM] iter= 400 llpw=-8.5335 ppl=5082.10 Calculating multiple coherence metrics...
+[CTM] iter= 400 llpw=-8.5335 ppl=5082.10 c_v=0.6317, c_npmi=0.0763
+[CTM] iter= 500 llpw=-8.5122 ppl=4975.07 Calculating multiple coherence metrics...
+[CTM] iter= 500 llpw=-8.5122 ppl=4975.07 c_v=0.6283, c_npmi=0.0790
+[CTM] iter= 600 llpw=-8.4964 ppl=4897.15 Calculating multiple coherence metrics...
+[CTM] iter= 600 llpw=-8.4964 ppl=4897.15 c_v=0.6324, c_npmi=0.0747
+[CTM] iter= 700 llpw=-8.4807 ppl=4820.67 Calculating multiple coherence metrics...
+[CTM] iter= 700 llpw=-8.4807 ppl=4820.67 c_v=0.6239, c_npmi=0.0661
+/__w/tomotopy/tomotopy/src/TopicModel/../Utils/TruncMultiNormal.hpp(56): wrong truncation range [-0.44545, -0.450598]
+[CTM] iter= 800 llpw=-8.4943 ppl=4886.73 Calculating multiple coherence metrics...
+[CTM] iter= 800 llpw=-8.4943 ppl=4886.73 c_v=0.6207, c_npmi=0.0791
+[CTM] iter= 900 llpw=-8.4769 ppl=4802.50 Calculating multiple coherence metrics...
+[CTM] iter= 900 llpw=-8.4769 ppl=4802.50 c_v=0.6336, c_npmi=0.0789
+[CTM] iter=1000 llpw=-8.4655 ppl=4747.97 Calculating multiple coherence metrics...
+[CTM] iter=1000 llpw=-8.4655 ppl=4747.97 c_v=0.6320, c_npmi=0.0789
+[CTM] iter=1100 llpw=-8.4796 ppl=4815.41 Calculating multiple coherence metrics...
+[CTM] iter=1100 llpw=-8.4796 ppl=4815.41 c_v=0.6368, c_npmi=0.0843
+[CTM] iter=1200 llpw=-8.4702 ppl=4770.70 Calculating multiple coherence metrics...
+[CTM] iter=1200 llpw=-8.4702 ppl=4770.70 c_v=0.6415, c_npmi=0.0892
+[CTM] iter=1300 llpw=-8.4676 ppl=4757.94 Calculating multiple coherence metrics...
+[CTM] iter=1300 llpw=-8.4676 ppl=4757.94 c_v=0.6459, c_npmi=0.0828
+/__w/tomotopy/tomotopy/src/TopicModel/../Utils/TruncMultiNormal.hpp(56): wrong truncation range [-0.816057, -0.817817]
+/__w/tomotopy/tomotopy/src/TopicModel/../Utils/TruncMultiNormal.hpp(56): wrong truncation range [-0.779251, -0.780745]
+[CTM] iter=1400 llpw=-8.4726 ppl=4781.70 Calculating multiple coherence metrics...
+[CTM] iter=1400 llpw=-8.4726 ppl=4781.70 c_v=0.6451, c_npmi=0.0819
+[CTM] iter=1500 llpw=-8.4571 ppl=4708.50 Calculating multiple coherence metrics...
+[CTM] iter=1500 llpw=-8.4571 ppl=4708.50 c_v=0.6468, c_npmi=0.0825
+[CTM] iter=1600 llpw=-8.4447 ppl=4650.35 Calculating multiple coherence metrics...
+[CTM] iter=1600 llpw=-8.4447 ppl=4650.35 c_v=0.6412, c_npmi=0.0791
+/__w/tomotopy/tomotopy/src/TopicModel/../Utils/TruncMultiNormal.hpp[CTM] iter=1700 llpw=-8.4345 ppl=4602.97 Calculating multiple coherence metrics...
+(56): wrong truncation range [-0.440704, -0.440707]
+/__w/tomotopy/tomotopy/src/TopicModel/../Utils/TruncMultiNormal.hpp(56): wrong truncation range [0.665786, 0.665783]
+[CTM] iter=1700 llpw=-8.4345 ppl=4602.97 c_v=0.6479, c_npmi=0.0902
+[CTM] iter=1800 llpw=-8.4460 ppl=4656.62 Calculating multiple coherence metrics...
+[CTM] iter=1800 llpw=-8.4460 ppl=4656.62 c_v=0.6532, c_npmi=0.0876
+[CTM] iter=1900 llpw=-8.4546 ppl=4696.50 Calculating multiple coherence metrics...
+[CTM] iter=1900 llpw=-8.4546 ppl=4696.50 c_v=0.6507, c_npmi=0.0889
+[CTM] iter=2000 llpw=-8.4296 ppl=4580.74 Calculating multiple coherence metrics...
+[CTM] iter=2000 llpw=-8.4296 ppl=4580.74 c_v=0.6622, c_npmi=0.0937
+
+✅ Training complete! Time taken: 3272.6 seconds
+
+📈 Final Evaluation Results:
+   - Training iterations: 2000
+   - Log-likelihood per word: -8.429615
+   - Perplexity: 4580.74
+   - Coherence (C_v): 0.6622
+   - Effective topics: 128/128
+   - Convergence history length: 20
+
+📊 Training Improvement:
+   - Perplexity improvement: 6060.31 → 4580.74 (↓1479.57)
+
+Third time!
+
+🎯 Starting CTM model training
+============================================================
+
+🎯 Training CTM model with the full dataset...
+📚 Using full dataset: 970 documents
+🚀 Starting to train CTM model (seed=42)
+📊 Data Overview:
+   - Number of documents: 970
+   - Average document length: 85.8 words
+   - Vocabulary size: 1490
+
+🔧 Model Parameters:
+   - Number of topics K = 128
+   - Alpha = 0.1
+   - Eta = 0.05
+   - Max iterations = 2000
+   - Check interval = 100
+   - Multiple coherence metrics: Enabled (C_v, NPMI)
+🚀 Creating CTM model (K=128, α=0.1, η=0.05, seed=42)
+[CTM] iter= 100 llpw=-8.6806 ppl=5887.72 Calculating multiple coherence metrics...
+/tmp/ipykernel_19730/1858748832.py:208: RuntimeWarning: The training result may differ even with fixed seed if `workers` != 1.
+  mdl.train(interval)
+[CTM] iter= 100 llpw=-8.6806 ppl=5887.72 c_v=0.5679, c_npmi=0.0215
+[CTM] iter= 200 llpw=-8.6115 ppl=5494.26 Calculating multiple coherence metrics...
+/__w/tomotopy/tomotopy/src/TopicModel/../Utils/TruncMultiNormal.hpp(56): wrong truncation range [-1.14658, -1.1503]
+[CTM] iter= 200 llpw=-8.6115 ppl=5494.26 c_v=0.5892, c_npmi=0.0354
+[CTM] iter= 300 llpw=-8.5718 ppl=5280.43 Calculating multiple coherence metrics...
+[CTM] iter= 300 llpw=-8.5718 ppl=5280.43 c_v=0.6147, c_npmi=0.0537
+[CTM] iter= 400 llpw=-8.5276 ppl=5052.39 Calculating multiple coherence metrics...
+[CTM] iter= 400 llpw=-8.5276 ppl=5052.39 c_v=0.6077, c_npmi=0.0509
+[CTM] iter= 500 llpw=-8.4969 ppl=4899.44 Calculating multiple coherence metrics...
+[CTM] iter= 500 llpw=-8.4969 ppl=4899.44 c_v=0.6246, c_npmi=0.0643
+[CTM] iter= 600 llpw=-8.4780 ppl=4807.88 Calculating multiple coherence metrics...
+[CTM] iter= 600 llpw=-8.4780 ppl=4807.88 c_v=0.6377, c_npmi=0.0782
+[CTM] iter= 700 llpw=-8.4661 ppl=4750.83 Calculating multiple coherence metrics...
+[CTM] iter= 700 llpw=-8.4661 ppl=4750.83 c_v=0.6366, c_npmi=0.0773
+[CTM] iter= 800 llpw=-8.4772 ppl=4803.95 Calculating multiple coherence metrics...
+/__w/tomotopy/tomotopy/src/TopicModel/../Utils/TruncMultiNormal.hpp(56): wrong truncation range [-0.298653, -0.298653]
+[CTM] iter= 800 llpw=-8.4772 ppl=4803.95 c_v=0.6382, c_npmi=0.0711
+[CTM] iter= 900 llpw=-8.4849 ppl=4841.26 Calculating multiple coherence metrics...
+[CTM] iter= 900 llpw=-8.4849 ppl=4841.26 c_v=0.6491, c_npmi=0.0866
+[CTM] iter=1000 llpw=-8.4731 ppl=4784.24 Calculating multiple coherence metrics...
+[CTM] iter=1000 llpw=-8.4731 ppl=4784.24 c_v=0.6350, c_npmi=0.0868
+[CTM] iter=1100 llpw=-8.4748 ppl=4792.61 Calculating multiple coherence metrics...
+[CTM] iter=1100 llpw=-8.4748 ppl=4792.61 c_v=0.6439, c_npmi=0.0800
+[CTM] iter=1200 llpw=-8.4707 ppl=4773.07 Calculating multiple coherence metrics...
+[CTM] iter=1200 llpw=-8.4707 ppl=4773.07 c_v=0.6377, c_npmi=0.0809
+[CTM] iter=1300 llpw=-8.4726 ppl=4782.11 Calculating multiple coherence metrics...
+/__w/tomotopy/tomotopy/src/TopicModel/../Utils/TruncMultiNormal.hpp(56): wrong truncation range [1.03385, 1.03384]
+[CTM] iter=1300 llpw=-8.4726 ppl=4782.11 c_v=0.6382, c_npmi=0.0836
+[CTM] iter=1400 llpw=-8.4453 ppl=4653.31 Calculating multiple coherence metrics...
+[CTM] iter=1400 llpw=-8.4453 ppl=4653.31 c_v=0.6408, c_npmi=0.0773
+[CTM] iter=1500 llpw=-8.4370 ppl=4614.59 Calculating multiple coherence metrics...
+[CTM] iter=1500 llpw=-8.4370 ppl=4614.59 c_v=0.6476, c_npmi=0.0869
+[CTM] iter=1600 llpw=-8.4348 ppl=4604.39 Calculating multiple coherence metrics...
+/__w/tomotopy/tomotopy/src/TopicModel/../Utils/TruncMultiNormal.hpp(56): wrong truncation range [0.280521, 0.280512]
+[CTM] iter=1600 llpw=-8.4348 ppl=4604.39 c_v=0.6344, c_npmi=0.0794
+[CTM] iter=1700 llpw=-8.4526 ppl=4687.35 Calculating multiple coherence metrics...
+[CTM] iter=1700 llpw=-8.4526 ppl=4687.35 c_v=0.6401, c_npmi=0.0747
+[CTM] iter=1800 llpw=-8.4404 ppl=4630.40 Calculating multiple coherence metrics...
+[CTM] iter=1800 llpw=-8.4404 ppl=4630.40 c_v=0.6358, c_npmi=0.0785
+[CTM] iter=1900 llpw=-8.4395 ppl=4626.33 Calculating multiple coherence metrics...
+[CTM] iter=1900 llpw=-8.4395 ppl=4626.33 c_v=0.6349, c_npmi=0.0841
+[CTM] iter=2000 llpw=-8.4425 ppl=4640.35 Calculating multiple coherence metrics...
+[CTM] iter=2000 llpw=-8.4425 ppl=4640.35 c_v=0.6499, c_npmi=0.0928
+
+✅ Training complete! Time taken: 3042.8 seconds
+
+📈 Final Evaluation Results:
+   - Training iterations: 2000
+   - Log-likelihood per word: -8.442545
+   - Perplexity: 4640.35
+   - Coherence (C_v): 0.6499
+   - Effective topics: 128/128
+   - Convergence history length: 20
+
+📊 Training Improvement:
+   - Perplexity improvement: 5887.72 → 4640.35 (↓1247.38)
