@@ -1,0 +1,5 @@
+gamma,experiment_type,layer,avg_js_distance_mean,avg_js_distance_std,run_count,weighted_avg_renyi_entropy_mean,weighted_avg_renyi_entropy_std,entropy_run_count,avg_node_count,node_count_std,avg_total_documents,included_runs
+0.005,single,0.0,0.0,0.0,3,4.9239,0.0287,3,1.0,0.0,970.0,"1, 2, 3"
+0.005,single,1.0,0.4444,0.0457,3,4.9833,0.0941,3,16.6667,2.5166,970.0,"1, 2, 3"
+0.005,single,2.0,0.4044,0.0198,3,5.2672,0.1132,3,65.0,2.6458,970.0,"1, 2, 3"
+0.005,single,3.0,0.4646,0.0087,3,5.1899,0.0809,3,153.6667,12.0554,970.0,"1, 2, 3"

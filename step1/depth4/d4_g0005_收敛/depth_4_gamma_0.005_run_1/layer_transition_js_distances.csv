@@ -1,0 +1,4 @@
+parent_layer,child_layer,avg_js_distance,js_distance_std,pair_count,total_parent_docs,total_child_docs
+0,1,0.6029,0.0416,19,18430,970
+1,2,0.4641,0.1583,67,19354,970
+2,3,0.4623,0.1051,141,10774,970
