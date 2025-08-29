@@ -1,0 +1,2 @@
+depth,gamma,eta,alpha,avg_entropy_wavg_over_layers,avg_distinctiveness_wavg_over_layers,total_layers,total_nodes
+4,0.01,0.1,0.1,4.342002901812412,0.4729015832946746,4,247
