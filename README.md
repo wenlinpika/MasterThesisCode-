@@ -11,10 +11,13 @@
   other_models_EN_PAM.ipynb + pam_grid_search_result.xlsx
 
 - update first time 0925
-  update the three stages analysis framework of hLDA\\
+
+  update the three stages analysis framework of hLDA
   
   step1_analysis_d3.ipynb + ./step1 - resultfolder
-  step2_analysis.ipynb + ./step2 - resultfolder 
+  
+  step2_analysis.ipynb + ./step2 - resultfolder
+  
   step3_analysis.ipynb + ./step3 - resultfolder
 
 
